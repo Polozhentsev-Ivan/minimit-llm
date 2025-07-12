@@ -16,4 +16,4 @@ def function(n: int) -> bool:
     for d in range(3, lim + 1, 2):
         if n % d == 0:
             return False
-    return True    
+    return True
