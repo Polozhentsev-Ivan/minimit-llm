@@ -1,6 +1,6 @@
 [project]
 name = "minimit-llm"
-dependencies = ["ruff", "pytest>=8.0.0]
+dependencies = ["ruff", "pytest>=8.0.0"]
 
 [tool.ruff]
 line-lenght = 120
