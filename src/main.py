@@ -1,6 +1,7 @@
 import os
-from dotenv import load_dotenv
+
 import openai
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -24,7 +25,7 @@ class LlmClient:
                     {"role": "user", "content": prompt},
                 ],
             )
-            return response.choices[0].message.content  
+            return response.choices[0].message.content
         except Exception as exc:
             return f"Error occurred while request to API OpenAI: {exc}"
 
