@@ -1,7 +1,7 @@
 import math
 
 
-def function(n=int) -> bool:
+def function(n: int) -> bool:
     if not isinstance(n, int):
         raise TypeError("Input must be an integer")
 

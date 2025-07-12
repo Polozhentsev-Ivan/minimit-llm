@@ -32,5 +32,4 @@ def test_non_int():
 if __name__ == "__main__":
     test_is_prime()
     test_non_int()
-    print("All tests passed.")
-    
+    print("All tests passed.") 
