@@ -1,7 +1,7 @@
 [project]
 name = "minimit-llm"
 version = "0.0.1"
-dependencies = ["ruff", "pytest>=8.0.0"]
+dependencies = ["ruff", "pytest>=8.0.0", "openai", "dotenv"]
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "C", "B", "Q", "UP"]
