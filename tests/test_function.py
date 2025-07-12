@@ -1,5 +1,6 @@
 from src.function_for_test import function
 
+
 def test_is_prime():
     cases = [
         (0, False),
@@ -18,6 +19,7 @@ def test_is_prime():
             f"is_prime({value}) returned {result}, expected {expected}"
         )
 
+
 def test_non_int():
     try:
         function(3.111)
@@ -25,6 +27,7 @@ def test_non_int():
         pass
     else:
         raise AssertionError("Expected TypeError for non-int input")
+
 
 if __name__ == "__main__":
     test_is_prime()
