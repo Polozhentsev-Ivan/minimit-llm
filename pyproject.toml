@@ -1,5 +1,6 @@
 [project]
 name = "minimit-llm"
+version = "0.0.1"
 dependencies = ["ruff", "pytest>=8.0.0"]
 
 [tool.ruff]
