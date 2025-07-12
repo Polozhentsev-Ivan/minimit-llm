@@ -3,9 +3,11 @@ name = "minimit-llm"
 version = "0.0.1"
 dependencies = ["ruff", "pytest>=8.0.0"]
 
-[tool.ruff]
-line-length = 120
+[tool.ruff.lint]
 select = ["E", "F", "W", "I", "C", "B", "Q", "UP"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 120
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

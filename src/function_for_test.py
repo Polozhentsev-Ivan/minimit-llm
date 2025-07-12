@@ -1,4 +1,5 @@
 import math
+import pytest
 
 def function(n = int) -> bool:
     if not isinstance(n, int):
