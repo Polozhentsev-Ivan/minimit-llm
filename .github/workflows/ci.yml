@@ -1,11 +1,13 @@
 name: "Build and Test"
 
-on: [push,pull_request]
+on: [pull_request]
 
 jobs:
     build:
         name: Setup&Build
         runs-on: ubuntu-latest
+        container:
+            image: python:3.12-slim
         steps:
           - name: Checkout
             uses: actions/checkout@v3
