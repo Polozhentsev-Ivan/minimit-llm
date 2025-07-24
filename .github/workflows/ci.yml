@@ -25,7 +25,7 @@ jobs:
           - name: Ruff lint check
             uses: astral-sh/ruff-action@v1
             with:
-                args: check .
+                args: check . --fix
             
           - name: Run tests
             run: |
