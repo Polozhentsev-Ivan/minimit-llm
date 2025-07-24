@@ -45,3 +45,7 @@ htmlcov/
 .vscode/extensions.json
 
 .mypy_cache/
+
+*.txt
+*.jsonl
+*.json
